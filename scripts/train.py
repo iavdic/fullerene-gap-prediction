@@ -1,5 +1,5 @@
-from scripts.data_loader import load_data, featurize_dataframe
-from scripts.model import build_model
+from data_loader import load_data, featurize_dataframe
+from model import build_model
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 import pandas as pd

@@ -4,7 +4,7 @@ from tensorflow.keras.models import load_model
 from sklearn.preprocessing import StandardScaler
 import os
 
-model = load_model('results/model.h5')
+model = load_model('results/model.h5', compile=False)
 data = load_data('data/Fullerene_Gap_Dataset.csv')
 X, _ = featurize_dataframe(data)
 
