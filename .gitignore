@@ -1,5 +1,2 @@
-__pycache__/
-*.pyc
-*.h5
-*.png
-results/
+results/predictions.csv
+venv/
