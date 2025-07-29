@@ -1,0 +1,5 @@
+rdkit-pypi
+pandas
+scikit-learn
+tensorflow
+matplotlib
